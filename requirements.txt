@@ -1,24 +1,16 @@
-# Perfectly aligned LangChain packages
+tokenizers==0.15.2
+transformers==4.36.2
+sentence-transformers==2.5.1
 langchain==0.1.20
 langchain-core==0.1.52
-langchain-community==0.0.38  # Changed to match langchain requirement
+langchain-community==0.0.38
 langchain-text-splitters==0.0.1
-
-# RAG & embeddings
 chromadb==0.4.24
-sentence-transformers==2.2.2
 faiss-cpu==1.7.4
-
-# PDF handling
 pypdf==3.17.4
 PyMuPDF==1.23.8
-
-# Tokenizer & environment
 tiktoken==0.5.1
 python-dotenv==1.0.0
-
-# Groq integration
 langchain-groq==0.1.3
-
-# Utilities
 streamlit==1.29.0
+huggingface_hub==0.24.6
